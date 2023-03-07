@@ -1,0 +1,524 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+
+
+}
+
+
+
+.nav1{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+    color: rgb(121, 120, 120);
+    align-items: center;
+    margin: auto;
+    padding-bottom: 70px;
+    box-shadow: 0 0px 1px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+
+.nav-left input{
+    border-style: none;
+    outline: none;
+    font: 20px sans-serif ;
+    transition: all 0.5s ease;
+
+}
+
+ .nav-left input:hover{
+    transform: scale(1.1);
+} 
+
+
+
+.nav-left i{
+    margin-right: 20px;
+}
+
+.nav-middle{
+    border: 4px solid rgb(85, 80, 80);
+    padding: 20px;
+    margin-right: 200px;
+}
+
+
+.nav-right i{
+    padding: 6px;
+    color: rgb(167, 166, 166);
+}
+
+.nav-right a{
+    text-decoration: none;
+} 
+.nav-right i:hover{
+    color: rgb(48, 47, 47);
+
+}
+
+
+
+
+.nav2{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.nav2 div{
+    padding: 20px;
+}
+
+.nav2 a{
+    text-decoration: none;
+    font: 20px sans-serif;
+    color: rgb(46, 44, 44);
+}
+
+.nav2 a:hover{
+    color: rgb(212, 10, 179);
+
+}
+
+
+.nav3{
+    display: flex;
+    height: 90px;
+    background-color: rgb(245, 245, 245);
+}
+
+
+.nav3 div{
+    display: flex;
+    float: left;
+    align-items: center;
+    margin-left: 100px;
+}
+
+.nav3 div u{
+    text-decoration: none;
+    color: blueviolet;
+}
+
+
+
+.section1{
+    width: auto;
+    height: auto;
+    margin: 100px;
+
+
+}
+
+.section1 .div-master{
+    width: auto;
+
+
+
+    
+}
+
+.section1 .div-top{
+    display: flex;
+    align-items: center;
+    border: 1px solid rgb(173, 173, 173);
+    border-radius: 5px;
+    height: 80px;
+    margin-bottom: 100px;
+
+
+
+}
+
+.section1 .div-top p{
+    color: rgb(170, 170, 170);
+    font: 22px sans-serif;
+    margin-left: 50px;
+
+}
+.section1 .div-top a{
+    color: blueviolet;
+    text-decoration: none;
+
+}
+
+.section1 .div-master .div-middle {
+    display: flex;
+    justify-content: space-around;
+
+
+
+}
+
+.section1 .div-middle .div-master1{
+    width: 50%;
+    margin-right: 30px;
+
+
+}
+
+
+
+.section1 .div-middle  .div-left {
+    border: 1px solid gray;
+    height: 1200px;
+    width: 100%;
+    padding: 50px;
+    margin-top: 20px;
+    border-radius: 5px;
+
+
+
+}
+
+
+.section1 .div-middle  .div-left .div1 select{
+    padding-top: 30px;
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid rgb(173, 173, 173);
+
+
+}
+
+
+
+.section1 .div-middle  .div-left .div1 h2{
+    position: absolute;
+    margin: 25px;
+    font: 25px sans-serif;
+    color: gray;
+}
+
+.section1 .div-middle .div-left .div2{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+
+
+}
+
+
+.section1 .div-middle .div-left .div2 input{
+    margin-top: 15px;
+    padding-top: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 5px;
+    border: 1px solid rgb(173, 173, 173);
+
+}
+
+
+
+
+
+.section1 .div-middle  .div-left .div3  {
+    margin-top: 30px;
+}
+
+
+.section1 .div-middle  .div-left .div3 input {
+    margin-top: 10px;
+    padding: 15px;
+    border-radius: 5px;
+    width: 100%;
+    border: 1px solid rgb(173, 173, 173);
+
+
+    
+}
+
+.section1 .div-middle  .div-left .div4{
+    margin-top: 30px;
+}
+
+.section1 .div-middle  .div-left .div4 input{
+    font: 20px sans-serif;
+    color: gray;
+    margin-top: 10px;
+    width: 100%;
+    padding: 15px;
+    border-radius: 5px;
+    border: 1px solid rgb(173, 173, 173);
+
+}
+
+
+
+
+.section1 .div-middle .div-left .div5{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+
+}
+
+
+.section1 .div-middle .div-left .div5 input{
+    margin-top: 15px;
+    padding-top: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 5px;
+    border: 1px solid rgb(173, 173, 173);
+
+}
+
+
+
+
+
+.section1 .div-middle .div-left .div6{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+
+}
+
+
+.section1 .div-middle .div-left .div6 input{
+    text-align: start;
+    margin-top: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    padding-right: 80px;
+    border-radius: 5px;
+    border: 1px solid rgb(173, 173, 173);
+
+}
+
+.section1 .div-middle .div-left .div7 input{
+    margin-top: 30px;
+
+}
+
+.section1 .div-middle .div-left .div8 {
+    margin-top: 30px;
+
+}
+
+.section1 .div-middle .div-left .div8 textarea{
+    margin-top: 10px;
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 460px;
+}
+
+
+
+
+/* -------------- */
+
+
+
+
+
+
+
+.section1 .div-middle  .div-master2{
+    width: 50%;
+    height: 1000px;
+
+}
+
+.section1 .div-middle  .div-right .div1 {
+    border: 1px solid gray;
+    height: 180px;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    padding: 50px;
+    border-radius: 5px;
+
+}
+
+.section1 .div-middle  .div-right .div1 .input1{
+    margin-top: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 50px;
+}
+
+.section1 .div-middle  .div-right .div1 .input2{
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: blueviolet;
+    color: whitesmoke;
+}
+.section1 .div-middle  .div-right .div1 .input2:hover{
+    box-shadow: 0px 3px 3px 0px rgba(156, 0, 156, 0.815);
+}
+
+
+.section1 .div-middle  .div-right .div2 {
+    border: 1px solid gray;
+    height: 930px;
+    width: 100%;
+    margin-top: 10px;
+    padding: 100px;
+    border-radius: 5px;
+
+}
+
+.section1 .div-middle  .div-right .div2 .top2{
+    display: flex;
+    justify-content: space-around;
+    margin: 15px;
+}
+
+
+
+.section1 .div-middle  .div-right .div2 .top2 li{
+    margin-right: 100px;
+    text-align: start;
+    list-style-type: none;
+    font: 20px sans-serif;
+
+}
+
+
+.section1 .div-middle  .div-right .div2 .middle{
+    margin-top: 100px;
+}
+
+.section1 .div-middle  .div-right .div2 .middle .button1{
+    width: 100%;
+    margin-top: 20px;
+    padding: 20px;
+    background-color: white;
+    color: rgb(118, 38, 194);
+    text-align: start;
+    font: 20px sans-serif;
+    border-radius: 5px;
+    border: 1px solid rgb(173, 173, 173);
+
+}
+
+
+.section1 .div-middle  .div-right .div2 .middle .button2{
+    width: 100%;
+    margin-top: 60px;
+    padding: 20px;
+    background-color:rgb(118, 38, 194);
+    color:whitesmoke;
+    border-radius: 5px;
+    text-align: center;
+    font: 20px sans-serif;
+    border: 1px solid rgb(173, 173, 173);
+
+}
+
+.section1 .div-middle  .div-right .div2 .middle .button2:hover{
+    box-shadow: 0px 3px 3px 0px rgba(156, 0, 156, 0.815);
+}
+
+
+
+
+
+
+
+
+.section5{
+    height: 500px;
+    box-shadow: 0 0px 5px 0 rgba(49, 49, 49, 0.19);
+
+
+}
+
+
+.section5 .div-master{
+    display: flex;
+    justify-content: space-around;
+}
+
+.section5 .div-master .div1{
+    padding-top: 100px;
+}
+
+
+
+.section5 .div-master div li{
+    font: 20px sans-serif;
+    list-style-type: none;
+    padding-bottom: 20px;
+
+}
+
+
+.section5 .div-master .div2{
+    padding-top: 170px;
+}
+
+.section5 .div-master .div3{
+    padding-top: 170px;
+}
+
+.section5 .div-master .div4{
+    margin-top: 100px;
+}
+
+.section5 .div-master .div4 img{
+    width: 300px;
+    
+}
+
+.section5 .div-master .div4 .h1-2{
+    color: blueviolet;
+    padding-bottom: 10px;
+}
+
+
+
+.section5 .div-master .div5{
+    margin-top: 100px;
+}
+
+
+.section5 .div-master .div5 li i{
+    color: blueviolet;
+}
+
+
+.section5 .div-master .div5 li .email{
+    outline: none;
+    font: 20px sans-serif ;
+    padding: 20px;
+    border-radius: 10px;
+    border-color: rgb(197, 185, 185);
+    position: relative;
+}
+
+.section5 .div-master .div5 li .button{
+    position: absolute;
+    margin-left: 210px;
+    padding: 24px;
+    border-radius: 8px;
+    z-index: 1;
+    color: white;
+    background-color: blueviolet;
+
+}
+
+
+footer{
+    display: flex;
+    justify-content: center;
+    color: gray;
+}
+
+footer u{
+    text-decoration: none;
+    color: blueviolet;
+}
+
+
+
